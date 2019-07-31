@@ -1,0 +1,6 @@
+front/node_modules/
+backend/build/
+backend/node_modules/
+front/yarn.lock
+backend/yarn.lock
+front/build/

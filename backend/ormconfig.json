@@ -1,0 +1,17 @@
+{
+	"type": "pg",
+	"host": "localhost",
+	"username": "test",
+	"password": "Developerlinux@",
+	"database": "api",
+	"synchronize": true,
+	"logging": true,
+	"entities": ["src/entity/**/*.ts"],
+	"migrations": ["src/migration/**/*.ts"],
+	"subscribers": ["src/subscriber/**/*.ts"],
+	"cli": {
+		"entitiesDir": "src/Entity",
+		"migrationsDir": "src/Migration",
+		"subscribersDir": "src/Subscriber"
+	}
+}
